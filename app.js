@@ -20,7 +20,7 @@ function formatNumber(number) {
     return result;
 }
 
-const num = prompt("Please enter an odd number:");
+const num = prompt("Please enter odd numbers:");
 const formattedNum = formatNumber(num);
 
 pEl.textContent = formattedNum;
